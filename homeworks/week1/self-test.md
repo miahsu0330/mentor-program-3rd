@@ -13,6 +13,8 @@
 
 #### 前端
 
+##### 網頁上看得到的東西都是前端
+
 * 處理資料的呈現
 * 使用者介面互動
 * 網站效能調校  
@@ -20,24 +22,33 @@
 
 #### 後端
 
+##### 網頁上看不到的
+
 * 資料庫的串接設計
 * 處理伺服器效能
-* 應用程式介面開發
+* 應用程式介面（AIP）開發
+
 
 ### 你能說出從發出一個 request 到接收 response 中間發生的事
 
 1. 當瀏覽器接收到 request 後會開始解析請求
-2. 接著建立連線
-3. 將資料回傳
-4. 瀏覽器解析資料
+2. 接著建立連線 server
+3. 連接到資料庫將資料取出回傳 response
+4. 瀏覽器解析 response
 5. 印出資料
 
 
 ### 你了解不同載具的差異在哪（Desktop、Mobile、Web）
 
 1. 寬度與解析度不同，因此內容也須配合載具進行增減
-2. Mobile 皆為使用無線網路連接，比起有線網路，下載的速度較慢，必須減少 request 避免網頁 loding 過久的問題。
-3. Desktop 能使用各種不同的瀏覽器相較之下 Mobile 僅能使用 chrome 或 safiri 但其實還需包含 app 裡內建的瀏覽器（In-App browser）更為複雜。
+2. Mobile 皆為使用無線網路連接，比起有線網路，下載的速度較慢，必須減少 request 避免網頁 loding 過久的問題。
+3. Desktop 能使用各種不同的瀏覽器相較之下 Mobile 僅能使用 chrome 或 safiri 但其實還需包含 app 裡內建的瀏覽器（In-App browser）更為複雜。
+
+
+* Desktop：chrome、evernote 等軟體。
+* Web： GitHub、FB 等需要靠網頁操作的軟體。
+* Mobile：手機上使用的軟體。
+
 
 
 ### 你了解基本的 command line 指令
