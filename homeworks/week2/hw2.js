@@ -4,6 +4,14 @@
  | firstIndex 轉成大寫。
  | 回傳 firstIndex + restIndex。
  */
+
+
+/*
+ | function capitalize(str) {
+ |   return str[0].toUpperCase() + str.slice(1);
+ | }
+*/
+
 function capitalize(str) {
 
   var firstIndex = str[0];
