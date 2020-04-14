@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+header, .contain, nav, nav ul {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #202835;
+    color: #fff;
+}
+
+.logo {
+    font-size: 20px;
+    margin: 20px;
+}
+
+nav ul li {
+    color: rgba(245, 245, 245, 0.5);
+    min-width: 50px;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    color: rgba(245, 245, 245, 1)
+}
+
+.masterVision {
+    background: #E9FAFF;
+    padding: 25px 20px;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.button {
+    font-size: 16px;
+    background-color: #939393;
+    color: #fff;
+    border: 0px solid #000;
+    border-radius: 0.2em;
+    line-height: 1.5;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.btnPrimary {
+    background-color: #1F7EF2;
+    font-size: 20px;
+}
+
+.container {
+    padding: 25px 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 33.333333%;
+    padding: 10px;
+}
+
+.cardHeader {
+    padding: 10px 0px;
+}
+
+h4 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+footer {
+    width: 100%;
+    margin: 10px 15px;
+    border-top: 1px solid #E3E3E3;
+    line-height: 2;
+    padding-top: 15px;
+}
+
+@media screen and (max-width:750px) {
+    .card {
+        width: 100%;
+    }
+}
